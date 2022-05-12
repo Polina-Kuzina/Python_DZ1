@@ -13,5 +13,5 @@ file_numbers = 'numbers4.txt'
 with open(file_numbers, 'a') as data:
     for i in range(k-1):
         data.write(f'{numbers[i]}*x^{k-i} + ')
-    data.write(f'{numbers[k-1]}*x + {numbers[k]} = 0')    
+    data.write(f'{numbers[k-1]}*x + {numbers[k]} = 0 \n')    
 # print(data)
